@@ -1,0 +1,63 @@
+/* cmsms stylesheet: style_test modified: Tuesday, May 20, 2025 9:35:23 PM */
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1e90ff;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #1e90ff;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav li.active a {
+  color: #ffd700;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+main {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  color: #1e90ff;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive menu */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
